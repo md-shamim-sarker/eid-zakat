@@ -182,3 +182,12 @@ header>div {
     border-radius: 10px;
     padding: 26px;
 }
+
+/********************************Gallery Section******************************************/
+.gallery {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+}
