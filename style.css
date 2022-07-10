@@ -45,11 +45,11 @@ p {
     font-size: 18px;
     line-height: 28px;
     color: #707070;
+    margin: 16px 0 18px 0;
 }
 
 .banner-p {
     color: #FFFFFF;
-    margin: 16px 0 18px 0;
 }
 
 .card-title {
@@ -73,7 +73,7 @@ button:hover {
     background: #db152c;
 }
 
-.link-underline {
+a {
     display: block;
     font-weight: 600;
     font-size: 20px;
@@ -140,10 +140,6 @@ header>div {
     border-radius: 5px;
 }
 
-.section2 p {
-    margin: 16px 0 18px 0;
-}
-
 
 /*****************************Section 3 ************************************/
 
@@ -159,10 +155,6 @@ header>div {
 .section3-text {
     width: 43vw;
     text-align: center;
-}
-
-.section3 p {
-    margin: 16px 0 30px 0;
 }
 
 .cards {
@@ -190,4 +182,32 @@ header>div {
     display: flex;
     column-gap: 10px;
     justify-content: center;
+}
+
+/*************************Heart Section*************************************/
+.heart-cards {
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+}
+
+.heart-card {
+    width: 350px;
+    height: fit-content;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+
+.heart-card img {
+    width: 100%;
+}
+
+.heart-text {
+    padding: 20px;
+}
+
+.heart-text-header {
+    width: 60vw;
+    margin: auto;
+    text-align: center;
 }
