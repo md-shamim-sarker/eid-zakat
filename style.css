@@ -1,0 +1,110 @@
+/************************************ Common Style ************************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+.flex-container {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+}
+
+.section-gap {
+    margin: 25px 0;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #121212;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+}
+
+.banner-p {
+    color: #FFFFFF;
+    margin: 16px 0 18px 0;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #121212;
+}
+
+button {
+    padding: 15px 20px;
+    border: none;
+    background: #EF233C;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+button:hover {
+    background: #db152c;
+}
+
+.link-underline {
+    display: block;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #EF233C;
+}
+
+.footer-heading {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    color: #EF233C;
+}
+
+/************************************ Header Section Style ************************************/
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, #1A1A1A -0.7%, rgba(26, 26, 26, 0)), url(./image/banner-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+header>div {
+    width: 39vw;
+    height: 40vh;
+    position: absolute;
+    left: 12vw;
+    top: 30vh;
+}
+
+/************************Section 2*****************************/
+
+.section2 {}
