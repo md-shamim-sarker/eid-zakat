@@ -17,7 +17,11 @@ body {
 }
 
 .section-gap {
-    margin: 25px 0;
+    margin: 10% 0;
+}
+
+.width-40p {
+    width: 40vw;
 }
 
 h1 {
@@ -107,4 +111,34 @@ header>div {
 
 /************************Section 2*****************************/
 
-.section2 {}
+.section2 {
+    width: 100vw;
+    height: 61vh;
+    padding: 33px;
+    display: flex;
+    column-gap: 64px;
+    justify-content: center;
+    align-items: center;
+}
+
+.vidimg {
+    width: 30%;
+    height: 100%;
+    background-image: url(./image/video-image.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.hujur {
+    width: 30%;
+    height: 100%;
+    background-image: url(./image/hujur.png);
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.section2 p {
+    margin: 16px 0 18px 0;
+}
