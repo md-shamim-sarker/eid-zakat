@@ -100,21 +100,22 @@ header {
     background: linear-gradient(90deg, #1A1A1A -0.7%, rgba(26, 26, 26, 0)), url(./image/banner-image.png);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header>div {
-    width: 39vw;
-    height: 40vh;
-    position: absolute;
-    left: 12vw;
-    top: 30vh;
+    width: 50vw;
+    height: auto;
 }
 
 /************************Section 2*****************************/
 
 .section2 {
     width: 100vw;
-    height: 61vh;
+    height: auto;
+    margin-top: 3rem;
     padding: 33px;
     display: flex;
     column-gap: 64px;
@@ -124,7 +125,7 @@ header>div {
 
 .vidimg {
     width: 30%;
-    height: 100%;
+    height: 20rem;
     background-image: url(./image/video-image.png);
     display: flex;
     justify-content: center;
@@ -132,12 +133,8 @@ header>div {
     border-radius: 5px;
 }
 
-.hujur {
-    width: 30%;
-    height: 100%;
-    background-image: url(./image/hujur.png);
-    background-size: cover;
-    border-radius: 5px;
+.section2>img {
+    height: 25rem;
 }
 
 
@@ -145,7 +142,7 @@ header>div {
 
 .section3 {
     width: 100vw;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -158,7 +155,7 @@ header>div {
 }
 
 .cards {
-    width: 79%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     gap: 22px;
@@ -177,17 +174,18 @@ header>div {
 
 /********************************Gallery Section******************************************/
 .gallery {
-    width: 100vw;
+    width: 90vw;
+    margin: auto;
     height: auto;
     display: flex;
-    column-gap: 10px;
+    gap: 2rem;
     justify-content: center;
 }
 
 /*************************Heart Section*************************************/
 .heart-cards {
     display: flex;
-    column-gap: 10px;
+    gap: 2rem;
     justify-content: center;
 }
 
@@ -210,4 +208,64 @@ header>div {
     width: 60vw;
     margin: auto;
     text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    header>div {
+        width: 90%;
+        text-align: center;
+        font-size: 3rem;
+        height: auto;
+    }
+
+    .section2 {
+        width: 100vw;
+        height: auto;
+        padding: 33px;
+        display: flex;
+        flex-direction: column-reverse;
+        column-gap: 64px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .m-width {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .m-padding {
+        padding: 1.5rem;
+    }
+
+    .left-align {
+        text-align: left;
+    }
+
+    .card {
+        width: 90vw;
+        height: auto;
+        gap: 2rem;
+    }
+
+    .gallery {
+        flex-direction: column;
+    }
+
+    .gallery img {
+        width: 100%;
+    }
+
+    .heart-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section2 {
+        flex-direction: column;
+    }
+
+    .section2>img {
+        width: 100%;
+    }
 }
