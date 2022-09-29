@@ -112,7 +112,8 @@ header>div {
 
 /************************Section 2*****************************/
 
-.section2 {
+.section2,
+.section1 {
     width: 100vw;
     height: auto;
     margin-top: 3rem;
@@ -223,7 +224,7 @@ header>div {
         height: auto;
         padding: 33px;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         column-gap: 64px;
         justify-content: center;
         align-items: center;
@@ -267,5 +268,10 @@ header>div {
 
     .section2>img {
         width: 100%;
+        height: 22rem;
+    }
+
+    .section1 {
+        flex-direction: column-reverse;
     }
 }
